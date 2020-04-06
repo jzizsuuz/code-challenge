@@ -1,0 +1,45 @@
+body,
+html {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 1500px;
+}
+#red-box {
+  width: 800px;
+  height: 80px;
+  background-color: #ff7979;
+  position: fixed;
+  top: 0;
+}
+#blue-box {
+  width: 700px;
+  height: 400px;
+  padding: 50px;
+  background-color: #7ed6df;
+  position: relative;
+  top: 80px;
+}
+#yellow-box {
+  width: 25%;
+  height: 100%;
+  background-color: #fecc00;
+  border: 5px solid #979797;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+span {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+#green-box {
+  width: 100px;
+  height: 40px;
+  background-color: #badc58;
+  position: fixed;
+  top: 60px;
+  left: 540px;
+}

@@ -1,0 +1,31 @@
+body,
+html {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #1e90ff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.father {
+  width: 200px;
+  height: 200px;
+  background-color: #ff6b81;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: #d8d8d7;
+}
+
+.child:nth-child(2):hover {
+  background-color: red;
+}

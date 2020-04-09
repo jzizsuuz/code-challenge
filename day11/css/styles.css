@@ -1,1 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&display=swap");
 @import "reset.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e2e5e9;
+  font-family: "Baloo Bhai 2", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px;
+}
+
+.container {
+  width: 380px;
+  height: 825px;
+  padding: 15px 30px;
+  background: linear-gradient(rgba(255, 255, 255, 0) -10%, #f3f4f7 46%) fixed,
+    url("../images/img4.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 30px;
+  position: relative;
+}
+
+.container .status-bar,
+.container .header__column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .status-bar__clock {
+  font-size: 17px;
+}
+
+.container .header {
+  margin-top: 30px;
+}
+
+.container .header__icon {
+  font-size: 22px;
+}
+
+.container .more-images {
+  margin-top: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.more-images .more-img {
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.more-img:nth-child(4) {
+  background-color: #3f67ff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag__column {
+  margin-top: 30px;
+}
+.tag__column .tag-list {
+  display: flex;
+}
+.tag__column .tag-item {
+  margin-right: 10px;
+  padding: 8px 15px;
+  background-color: #dee4fa;
+  color: #3f67ff;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 10px 10px 10px 0;
+}
+
+.content-box {
+  margin-top: 20px;
+}
+.content-box .content__info {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-box .info__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-box .info__title {
+  font-size: 35px;
+  font-weight: 600;
+  color: #010938;
+}
+
+.content-box .info__icon-heart {
+  color: red;
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-box .info-text {
+  margin-left: 5px;
+  font-size: 20px;
+  opacity: 0.3;
+}
+.content-box .info__place i {
+  color: #3f67ff;
+  font-size: 13px;
+}
+.content-box .info__rating i {
+  color: #ffbc02;
+}
+.content-box .info__rating span {
+  margin-left: 5px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.content-box .content__overview {
+  margin-top: 30px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content__overview span {
+  font-size: 15px;
+  opacity: 0.3;
+}
+
+.content__overview .overview-text {
+  margin-top: 5px;
+  line-height: 150%;
+  font-size: 18px;
+  color: #7588aa;
+}
+
+.content__overview .read-more {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f67ff;
+}
+.nav {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-top: 1px solid #e5eaf2;
+  border-radius: 0 0 30px 30px;
+  background-color: #f3f4f7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .nav-list-left,
+.nav .nav-list-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav .nav-item {
+  margin-right: 12px;
+  margin-left: 12px;
+  width: 40px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #9aa9c2;
+}
+.nav-list-left .nav-item:nth-child(2) {
+  color: #3f67ff;
+  border-top: 2px solid #3f67ff;
+}
+
+.nav .nav-middle {
+  width: 54px;
+  height: 54px;
+  background-color: #3f67ff;
+  color: white;
+  border: 3px solid#F1F2F2;
+  box-shadow: 0 0 10px white, 0px 5px 20px #95abff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -30px;
+  left: 160px;
+}
+
+.gray-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  left: 142px;
+  bottom: 58px;
+  background-color: #e8ebf2;
+}

@@ -1,3 +1,3 @@
-#Day12
+## Day12
 
-![day12](./images/day12.jpeg);
+![day12](../etc/day12.jpeg);
